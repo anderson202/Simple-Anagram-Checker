@@ -85,5 +85,5 @@ if __name__ == "__main__":
     count = 0
     a = AnagramSolver(words)
     userInput=input("Please enter a word to check for its anagrams: ")
-    userMax=input("Please enter the max length of the anagrams you wish to see: ")
+    userMax=input("Please enter the max number of words used to form the anagram: ")
     print(a.generateAnagrams(userInput, int(userMax)))
