@@ -1,17 +1,3 @@
-#**********************************************************
-# Assignment2:
-# UTOR user_name: ngho8
-# First Name: Anderson Ho Yin
-# Last Name: Ng
-# Student # 1001544386
-#
-#
-# Honour Code: I pledge that this program represents my own
-# program code and that I have coded on my own. I received
-# help from no one in designing and debugging my program.
-# I have also read the plagiarism section in the course info sheet
-# of CSC 148 and understand the consequences. #*********************************************************
-
 import time
 from letterManager import LetterManager
 class InvalidAnagramLength(Exception):
